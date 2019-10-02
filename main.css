@@ -1,0 +1,769 @@
+/* ================================================ */
+              /* HOME PAGE DIVS/TAGS/ INFO */
+/* ================================================ */
+.parentContainer{
+    /* height: 100vh; */
+    /* background-repeat: no-repeat; */
+}
+
+#welcomeHeader{
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+#logoHome{
+   margin-top: 10px;
+    padding-left:400px;  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#welcomeButton{
+   position: absolute;
+   margin-top: 400px;
+   margin-left: 900px;
+   background-color: red;
+   color: white;
+   border-radius: 50%;
+   /* text-decoration: none; */
+   font-size: 24px;
+   cursor: pointer;
+   padding: 40px 25px;
+   outline: none;
+   box-shadow: 0 11px gray;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#welcomeButton:hover {
+    background-color: red
+}
+
+#welcomeButton:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*                   FRY ANIMATION */
+/* ================================================ */
+
+/* This is a vector image of french fry. Will animate to simulate motion */
+.fallingFry{
+    background-image: url(/images/fryCrop.png);
+    animation: fry 25s infinite linear;
+    height:100vh;
+  
+}
+
+/* This is the animation for the french fry fall. */
+@keyframes fry {
+    0%{
+        background-position: 0px 0px;
+    }
+
+    100%{
+        background-position: 100px 649px;
+    }
+    
+}
+
+/* ================================================ */
+              /* NAV BAR  */
+/* ================================================ */
+
+#navUL{
+    list-style-type: none;
+    overflow: hidden;
+    /* background-color: rgba(5, 5, 5, 0.315); */
+    background-color: rgba(255, 255, 255, 0.507);
+    /* margin-top: 20px; */
+}
+
+#navLI {
+    float: left;
+}
+
+.navText {
+    display: inline-block;
+    color: black;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    /* padding: 5px; */
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    /* margin-right: 10px; */
+    letter-spacing: 2px;
+}
+
+.navTextBlog{
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.navTextAbout{
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.navTextContact{
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.navTextFast{
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.navTextCreator{
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.navTextHistory{
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.navTextHistory{
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.navTextMerch{
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.navTextRecipes{
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 10px #DBAD2B;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.navText:hover{
+    text-shadow: 2px 2px 10px #DBAD2B;
+    color:red;
+}
+ 
+ a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* ================================================ */
+              /* Grid THEME  */
+/* ================================================ */
+.gridContainer{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 6fr 6fr 1fr;
+        grid-template-areas: 
+                            "navHolder1 navHolder1 navHolder1 navHolder1"
+                             "cont cont cont cont"
+                             "cont cont cont cont"
+                             "foot foot foot foot"
+
+}
+
+.navHolder1{
+    display: grid;
+    grid-area: navHolder1;
+    grid-template-columns: 1fr 13fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo nav"
+                        "logo title"
+}
+
+.logo{
+    display: grid;
+    grid-area: logo;
+    /* border: solid red; */
+    
+    position: absolute;
+
+}
+
+#logoPage{
+    padding-top: 10px;
+
+}
+
+#logoPage:hover{
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    100% { transform: translate(-1px, 2px) rotate(-1deg); } 
+   
+}
+
+.nav{
+    grid-area: nav;
+    /* border: solid orange; */
+  
+
+}
+
+.title{
+    grid-area: title;
+    justify-content: center;
+    /* border: solid yellow; */
+
+}
+
+.cont{
+    grid-area: cont;
+    margin-top: 0px;
+    /* border: solid green; */
+
+}
+.foot{
+    grid-area: foot;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.692);
+}
+    
+/* Background */
+.fallingFryOther{
+    background-image: url(/images/singleFry.png);
+    height:100vh;
+}
+/* ================================================ */
+              /* ABOUT PAGE DIVS/TAGS/ INFO */
+/* ================================================ */
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+#logoLink{
+    position: absolute;
+}
+
+.contBox{
+    /* background: rgba(0, 0, 0, 0.349); */
+    background-color: rgba(255, 255, 255, 0.925);
+    box-shadow:  0px 0px 50px;
+    width: 70%;
+    height: 90%;
+    /* margin-left: 200px; */
+  
+
+}
+
+#merchContBox{
+    position:relative;
+    
+}
+
+.pageHeader{
+    text-shadow: 2px 2px 10px #DBAD2B;
+    color:red;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+    padding-left:170px;
+}
+
+.aboutHeader{
+    text-shadow: 2px 2px 10px #DBAD2B;
+    color:red;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+    padding-left: 310px;
+}
+
+.histHeader{
+    text-shadow: 2px 2px 10px #DBAD2B;
+    color:red;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+    padding-left: 310px;
+}
+
+.createHeader{
+
+        text-shadow: 2px 2px 10px #DBAD2B;
+        color:red;
+        font-size: 50px;
+        font-family: 'Bungee Shade', cursive;
+        padding-left: 210px;
+    
+}
+
+.rankHeaderMain{
+    text-shadow: 2px 2px 10px #DBAD2B;
+    color:red;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+    padding-left: 230px;
+}
+
+.contactHeader{
+    text-shadow: 2px 2px 10px #DBAD2B;
+    color:red;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+    padding-left: 430px;
+}
+
+.creationHeader{
+    text-shadow: 2px 2px 10px #DBAD2B;
+    color:red;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+    padding-left: 260px;
+}
+
+.merchHeader{
+    text-shadow: 2px 2px 10px #DBAD2B;
+    color:red;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+    padding-left: 400px;
+}
+
+
+.pageHeader:hover{
+    text-shadow: 2px 2px 10px #DBAD2B;
+    color:red;
+}
+.pageParaAbout{
+    font-size: 20px;
+    /* justify-content: center; */
+    padding: 35px 30px 20px 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    box-shadow: 0px 0px 25px black;
+    
+}
+
+.pageh2About{
+    padding-top: 40px;
+ /* padding: 0px 30px 0px 30px; */
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 30px;
+ text-decoration: underline;
+ color: red;
+}
+
+.profImage{
+    border-radius: 50%;
+    margin-left: 400px;
+    transition: all .2s ease-in-out;
+    box-shadow: 0px 0px 25px black;
+    
+}
+
+.profImage:hover{
+    transform: scale(1.5);
+
+}
+
+.imgText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 0px 30px 0px 30px;
+    
+}
+
+/* ================================================ */
+              /*  History PAGE DIVS/TAGS/ INFO */
+/* ================================================ */
+
+.youTube{
+    margin-left: 50px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 25px black;
+    filter: blur(4px);
+   
+   
+}
+.youTube:hover{
+    box-shadow: 0px 0px 100px black;
+    border: 1px white solid;
+    filter: blur(0px);
+
+}
+.videoContainer{
+    display:flex;
+}
+
+#historyHead{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top:40px;
+    text-decoration: underline;
+    color: red;
+}
+/* ================================================ */
+              /*  Contact PAGE DIVS/TAGS/ INFO */
+/* ================================================ */
+.formBox{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.contaImage{
+    height: 300px;
+    width: 300px; 
+    margin: 30px 30px 0px 80px;
+    box-shadow:  0px 0px 10px;
+}
+
+.contactForm{
+    border: 1px solid black;
+    margin: 30px 30px 0px 0px;
+    width: 400px;
+    padding-top: 40px;
+    box-shadow:  0px 0px 10px;
+        
+}
+
+.contHeader{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+}
+
+label{
+    padding-left: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+
+}
+
+input{
+    margin-left: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+
+}
+textarea{
+    margin-left: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+
+}
+li{
+    font-family: 'Montserrat', sans-serif;
+}
+/* ================================================ */
+              /*  Merch PAGE DIVS/TAGS/ INFO */
+/* ================================================ */
+.merchCont{
+    display: flex;
+    /* padding-top: 10px; */
+    margin-left: 100px;
+    text-align: center
+
+}
+
+.merchHead{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+/* ================================================ */
+              /*  Fry Creator PAGE DIVS/TAGS/ INFO */
+/* ================================================ */
+.fryCreatorContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.fryCreatorImage{
+    margin-top: 10px;
+}
+.fryInput{
+    box-shadow:  0px 0px 10px;
+}
+.fryList{
+
+    height:375px;
+    width:475px;
+    margin-left: 30px;
+    background-image: url(/images/fryBasket.png);
+    background-repeat:no-repeat;
+    background-position: center; 
+   
+    
+}
+.fryInput{
+    margin-top: 60px;
+    margin-right: 30px;
+    height:250px;
+    width:480px;
+    box-shadow:  0px 0px 40px;
+}
+
+#listHeading{
+    /* border: solid royalblue; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top:40px;
+    text-decoration: underline;
+    color: red;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+
+}
+
+/* ================================================ */
+ /*  Fry Ranking PAGE DIVS/TAGS/ INFO */
+/* ================================================ */
+
+.rankingsContainer{
+    padding-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.google{
+    box-shadow: 0px 0px 20px black;
+    border: 1px white solid;
+    transition: all .2s ease-in-out;
+}
+
+.google:hover{
+    transform: scale(1.5); 
+
+}
+
+.mapEmbed{
+    margin-top: 50px;
+    
+}
+
+.rankHeader{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.rankHeader2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.fastLogo{
+    transition: all .2s ease-in-out; 
+}
+
+.fastLogo:hover{
+    transform: scale(1.5); 
+}
+    
+/* ================================================ */
+ /*  fry Creation SlideShow PAGE DIVS/TAGS/ INFO */
+/* ================================================ */
+
+.slideShow{
+    margin-left: 250px;
+    padding-top: 30px;
+}
+
+.slideImage{
+    border: 10px solid rgba(0, 0, 0, 0.185);
+    box-shadow: 0px 0px 20px black;
+}
+
+.press{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 170px;
+   background-color: red;
+   color: white;
+   /* border-radius: 100%; */
+   /* text-decoration: none; */
+   font-size: 60px;
+   cursor: pointer;
+   outline: none;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.press1{
+    position: absolute;
+   margin-top: 150px;
+   margin-left: 30px;
+   /* margin-left: 600px; */
+   background-color: red;
+   color: white;
+   /* border-radius: 100%; */
+   /* text-decoration: none; */
+   font-size: 60px;
+   cursor: pointer;
+   outline: none;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.slideShowContainer{
+    display:flex;
+}
+
+#slideshowLower{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 120px;
+    color: red;
+}
+
+/* ================================================ */
+              /* blog Page */
+/* ================================================ */
+
+.blogPost{
+    /* margin-top: 40px; */
+    padding-top: 2px;
+    margin-left: 150px;
+    box-shadow:  0px 0px 50px;
+    width:800px;
+    border: 50px black;
+    
+}
+.fbImage{
+   border: 1px solid black;
+   padding-left: 10px;
+   
+  
+}
+
+#blogPara{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modalPhrase{
+    background-color: rgb(254, 254, 254);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(136, 136, 136)888;
+    width: 30%;
+}
+
+.close {
+    color: rgb(170, 170, 170);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submitButton{
+   margin-left: 100px;
+}
